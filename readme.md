@@ -40,8 +40,8 @@ Watch the [Demo Video](https://jmp.sh/88zCin1u) to see the application in action
 
 1. **Clone the Repository**:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>/backend
+    git clone https://github.com/sheezanazeer98/docs-app
+    cd backend
     ```
 
 2. **Set up a Python Virtual Environment**:
