@@ -1,0 +1,56 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# Flask-specific ignores
+instance/
+config.py
+
+# Database
+*.sqlite3
+*.db
+
+# Migrations
+migrations/versions/
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+.env.local
+
+# Byte-compiled / Optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Distribution / Packaging
+dist/
+build/
+*.egg
+*.egg-info/
+*.whl
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
